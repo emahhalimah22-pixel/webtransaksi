@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Transaksi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Form Transaksi</h1>
+
+    <form id="formTransaksi">
+        <label>Nama Pelanggan</label>
+        <input type="text" id="nama">
+
+        <label>Nama Produk</label>
+        <input type="text" id="produk">
+
+        <label>Harga Produk</label>
+        <input type="number" id="harga">
+
+        <label>Jumlah Pembelian</label>
+        <input type="number" id="jumlah">
+
+        <div class="button-group">
+            <button type="button" onclick="hitung()">Hitung</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+
+    <div id="hasil"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
